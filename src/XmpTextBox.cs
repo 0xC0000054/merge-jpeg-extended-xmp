@@ -20,7 +20,7 @@ namespace MergeJPEGExtendedXMP
     {
         public XmpTextBox()
         {
-            InitializeComponet();
+            InitializeComponent();
         }
 
         public void ClearAllReadOnly()
@@ -51,7 +51,7 @@ namespace MergeJPEGExtendedXMP
             }
         }
 
-        private void InitializeComponet()
+        private void InitializeComponent()
         {
             SuspendLayout();
 
